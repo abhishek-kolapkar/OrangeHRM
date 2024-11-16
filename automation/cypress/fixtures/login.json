@@ -1,0 +1,10 @@
+{
+  "validUsername": "Admin",
+  "validPassword": "admin123",
+
+  "invalidUsername": "test",
+  "invalidPassword": "test123",
+
+  "requiredFieldMsg": "Required",
+  "invalidLoginMsg": "Invalid credentials"
+}
