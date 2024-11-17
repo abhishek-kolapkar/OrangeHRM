@@ -16,6 +16,10 @@ export class Buzz {
     this.postSubmitBtn().click();
   }
 
+  getTotalPostCount() {
+    this.posts().its(length);
+  }
+
   // assertion methods
   verifyNewPostCreated(postContent) {
     this.posts().eq(1).should("contain", postContent);
